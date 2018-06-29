@@ -1,0 +1,114 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: EIM AVL
+
+BO_ 1 frame_1: 8 AVL
+ SG_ SN_Conc_COL_Diluted : 0|32@1+ (0.001,0) [-10000|10000] "ppm"  EIM
+ SG_ SN_Conc_CO2_Diluted : 32|32@1+ (0.001,0) [-10000|10000] "ppm"  EIM
+
+BO_ 2 frame_2: 8 AVL
+ SG_ SN_Conc_HC_Diluted : 0|32@1+ (0.001,0) [-10000|10000] "ppm"  EIM
+ SG_ SN_Conc_CH4_Diluted : 32|32@1+ (0.001,0) [-10000|10000] "ppm"  EIM
+
+BO_ 3 frame_3: 8 AVL
+ SG_ SN_Conc_NOX_Diluted : 0|32@1+ (0.001,0) [-10000|10000] "ppm"  EIM
+ SG_ SN_Conc_N2O_Diluted : 32|32@1+ (0.001,0) [-10000|10000] "ppm"  EIM
+
+BO_ 4 frame_4: 8 AVL
+ SG_ SN_Conc_Particulnteg_DilutedAPC : 0|32@1+ (0.001,0) [-10000|10000] "p/cm3"  EIM
+ SG_ SN_Q_CVS : 32|32@1+ (0.001,0) [-10000|10000] "m3/min"  EIM
+
+BO_ 5 frame_5: 8 AVL
+ SG_ SN_P_CVS : 0|32@1+ (0.001,0) [-10000|10000] "kPa"  EIM
+ SG_ SN_T_CVS : 32|32@1+ (0.001,0) [-10000|10000] "k"  EIM
+
+BO_ 6 frame_6: 8 AVL
+ SG_ grade : 0|32@1+ (0.001,0) [-10000|10000] "%"  EIM
+ SG_ weight : 32|32@1+ (0.001,0) [-10000|10000] "kg"  EIM
+
+BO_ 7 frame_7: 8 AVL
+ SG_ F0 : 0|32@1+ (0.001,0) [-10000|10000] "-"  EIM
+ SG_ F1 : 32|32@1+ (0.001,0) [-10000|10000] "-"  EIM
+
+BO_ 8 frame_8: 8 AVL
+ SG_ F2 : 0|32@1+ (0.001,0) [-10000|10000] "-"  EIM
+ 
+
+BO_ 9 frame_9: 8 AVL
+ SG_ f0 : 0|32@1+ (0.001,0) [-10000|10000] "-"  EIM
+ SG_ f1 : 32|32@1+ (0.001,0) [-10000|10000] "-"  EIM
+
+BO_ 10 frame_10: 8 AVL
+ SG_ f2 : 0|32@1+ (0.001,0) [-10000|10000] "-"  EIM
+ SG_ actural_speed : 32|32@1+ (0.001,0) [-10000|10000] "km/h"  EIM
+
+BO_ 11 frame_11: 8 AVL
+ SG_ actural_tractive_force : 0|32@1+ (0.001,0) [-10000|10000] "N"  EIM
+ SG_ warning : 32|32@1+ (0.001,0) [-10000|30000] "-"  EIM
+
+BO_ 12 frame_12: 8 AVL
+ SG_ warning_string1 : 0|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+ SG_ warning_string2 : 32|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+
+BO_ 13 frame_13: 8 AVL
+ SG_ warning_string3 : 0|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+ SG_ warning_string4 : 32|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+
+BO_ 14 frame_14: 8 AVL
+ SG_ warning_string5 : 0|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+ SG_ warning_string6 : 32|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+
+BO_ 15 frame_15: 8 AVL
+ SG_ warning_string7 : 0|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+ SG_ warning_string8 : 32|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+
+BO_ 16 frame_16: 8 AVL
+ SG_ warning_string9 : 0|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+ SG_ warning_string10 : 32|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+
+BO_ 17 frame_17: 8 AVL
+ SG_ mode : 0|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+ SG_ direction : 32|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+
+BO_ 18 frame_18: 8 AVL
+ SG_ status : 0|32@1+ (0.001,0) [-2147483648|2147483648] "-"  EIM
+
+
+
+
+
+
+

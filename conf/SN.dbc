@@ -1,0 +1,93 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_: PUMA
+
+
+BO_ 100 SN_Conc_COL_CO2_Diluted: 8 PUMA
+ SG_ SN_Conc_COL_Diluted : 0|32@1- (0.01,0) [-65535|65535] "ppm" Vector__XXX
+ SG_ SN_Conc_CO2_Diluted : 32|32@1- (0.01,0) [-65535|65535] "ppm" Vector__XXX
+
+BO_ 110 SN_Conc_HC_CH4_Diluted: 8 PUMA
+ SG_ SN_Conc_HC_Diluted : 0|32@1- (0.01,0) [-65535|65535] "ppm" Vector__XXX
+ SG_ SN_Conc_CH4_Diluted : 32|32@1- (0.01,0) [-65535|65535] "ppm" Vector__XXX
+
+BO_ 120 SN_Conc_NOX_N2O_Diluted: 8 PUMA
+ SG_ SN_Conc_NOX_Diluted : 0|32@1- (0.01,0) [-65535|65535] "ppm" Vector__XXX
+ SG_ SN_Conc_N2O_Diluted : 32|32@1- (0.01,0) [-65535|65535] "ppm" Vector__XXX
+
+BO_ 130 SN_Conc_Particulnteg_DilutedAPC: 8 PUMA
+ SG_ SN_Conc_Particulnteg_DilutedAPC : 0|32@1- (0.01,0) [-65535|65535] "ppm" Vector__XXX
+
+BO_ 140 SN_Q_P_T_CVS: 8 PUMA
+ SG_ SN_Q_CVS : 0|32@1- (0.01,0) [-5000|5000] "m3/min" Vector__XXX
+ SG_ SN_P_CVS : 16|32@1- (0.01,0) [-5000|5000] "kPa" Vector__XXX
+ SG_ SN_T_CVS : 32|32@1- (0.01,0) [-5000|5000] "k" Vector__XXX
+
+BO_ 150 Warning: 8 PUMA
+ SG_ Warning : 0|16@1+ (1,0) [0|3000] "" Vector__XXX
+ SG_ wanring_string1 : 16|16@1+ (1,0) [0|3000] "" Vector__XXX
+ SG_ wanring_string2 : 32|16@1+ (1,0) [0|3000] "" Vector__XXX
+ SG_ wanring_string3 : 48|16@1+ (1,0) [0|3000] "" Vector__XXX
+
+BO_ 160 Warning1: 8 PUMA
+ SG_ wanring_string4 : 0|16@1+ (1,0) [0|3000] "" Vector__XXX
+ SG_ wanring_string5 : 16|16@1+ (1,0) [0|3000] "" Vector__XXX
+ SG_ wanring_string6 : 32|16@1+ (1,0) [0|3000] "" Vector__XXX
+ SG_ wanring_string7 : 48|16@1+ (1,0) [0|3000] "" Vector__XXX
+
+BO_ 170 Warning2: 8 PUMA
+ SG_ wanring_string8 : 0|16@1+ (1,0) [0|3000] "" Vector__XXX
+ SG_ wanring_string9 : 16|16@1+ (1,0) [0|3000] "" Vector__XXX
+ SG_ wanring_string10 : 32|16@1+ (1,0) [0|3000] "" Vector__XXX
+ SG_ reserve : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 180 CVS1: 8 PUMA
+ SG_ Grade : 0|8@1+ (1,0) [0|100] "%" Vector__XXX
+ SG_ Weight : 8|16@1+ (1,0) [0|10000] "Kg" Vector__XXX
+ SG_ actural_speed : 24|16@1+ (1,0) [0|10000] "km/h" Vector__XXX
+ SG_ actural_tractive_force : 40|16@1+ (1,0) [0|10000] "N" Vector__XXX
+ SG_ reserve : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 190 CVS2: 8 PUMA
+ SG_ F0 : 0|16@1+ (1,0) [0|20000] "" Vector__XXX
+ SG_ F1 : 16|16@1+ (1,0) [0|20000] "" Vector__XXX
+ SG_ F2 : 32|16@1+ (1,0) [0|20000] "" Vector__XXX
+ SG_ reserve : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 200 CVS3: 8 PUMA
+ SG_ f0 : 0|16@1+ (1,0) [0|20000] "" Vector__XXX
+ SG_ f1 : 16|16@1+ (1,0) [0|20000] "" Vector__XXX
+ SG_ f2 : 32|16@1+ (1,0) [0|20000] "" Vector__XXX
+ SG_ reserve : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 210 CVS4: 8 PUMA
+ SG_ mode : 0|32@1+ (1,0) [0|1e+006] "" Vector__XXX
+ SG_ direction : 32|32@1+ (1,0) [0|1e+006] "" Vector__XXX
+
+
+

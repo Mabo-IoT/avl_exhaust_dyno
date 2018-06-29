@@ -1,0 +1,13 @@
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [63]: {'mode': 0.0, 'direction': 200.0}
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [66]: mode : 0.0
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [66]: direction : 200.0
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [61]: 7
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [63]: {'F0': 0.0, 'F1': 0.0}
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [66]: F0 : 0.0
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [66]: F1 : 0.0
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [61]: 9
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [63]: {'f0': 0.0, 'f1': 0.0}
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [66]: f0 : 0.0
+(2018-28-06 15:55:06), DEBUG, <checker>, your_plugin, bus_recv, [66]: f1 : 0.0
+(2018-29-06 14:38:39), ERROR, <MainThread>, your_plugin, init, [39]: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+(2018-29-06 14:38:39), DEBUG, <MainThread>, your_plugin, init, [41]: can't init whole client
